@@ -13,8 +13,8 @@ Selective search phân đoạn ảnh, chọn ra các region proposals dựa trê
 Trong bài trước nhận thấy việc khả năng ứng dụng image pyramid và sliding window phụ thuộc rất nhiều vào các thông số. Việc lựa chọn các thông số không tốt có thể dẫn tới kết quả không như mong muốn.
 
 Selective search hoạt động bằng cách sử dụng [superpixel algorithm](https://www.pyimagesearch.com/tag/superpixel/). Ví dụ sử dụng superpixel algorithm được biểu diễn trong hình sau:
-![image](superpixel.png)
+![image](./images/superpixel.png)
 Selective search tìm cách hợp nhất các superpixels để tìm ra các vùng có khả năng chứa vật thể.
 
-![iamge2](selective_search.png)
+![iamge2](./images/selective_search.png)
 
